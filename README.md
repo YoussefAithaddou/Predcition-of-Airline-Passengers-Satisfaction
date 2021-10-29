@@ -33,11 +33,11 @@ This projects aim to compare different classification models (Logistic regressio
 ###### Logistic regression:
 * Mean Absolute Error: 0.161
 * Accuracy: 0.84
-###### Support vector machine:
-* Mean Absolute Error: 0.092
-* Accuracy: 0.91
 ###### Decision tree:
 * Mean Absolute Error: 0.062
 * Accuracy: 0.94
+###### Support vector machine:
+* Mean Absolute Error: 0.092
+* Accuracy: 0.91
 
 ![image 2](https://github.com/YoussefAithaddou/Predcition-of-Airline-Passengers-Satisfaction/blob/main/Confusion%20matrix.png)
