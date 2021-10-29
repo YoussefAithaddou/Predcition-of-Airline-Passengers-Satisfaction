@@ -24,12 +24,19 @@ This projects aim to compare different classification models (Logistic regressio
   9. Food and drinks
 
 # Data preparation
+* Removed missing values.
+* Sampled data for analysis and visualization.
 * We visualize the correlation between attributes:
 ![image 1](https://github.com/YoussefAithaddou/Predcition-of-Airline-Passengers-Satisfaction/blob/main/Correlation%20Matrix.png)
-* Mean Absolute Error:
-  *
-  *
-* Logistic regression:
-  1. 100000.
-
-
+* SVM is a slow algorithm, thus we used a sample of 5000 rows from the original data as opposed to 100.000 samples sued for the logistic regression and Decison tree models.
+# Classifcation models:
+###### Logistic regression:
+* Mean Absolute Error: 0.161
+* Accuracy: 0.84
+###### Support vector machine:
+* Mean Absolute Error: 0.092
+* Accuracy: 0.91
+###### Decision tree:
+* Mean Absolute Error: 0.062
+* Accuracy: 0.94
+![image 2](https://github.com/YoussefAithaddou/Predcition-of-Airline-Passengers-Satisfaction/blob/main/Confusion%20matrix.png)
