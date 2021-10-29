@@ -26,7 +26,10 @@ This projects aim to compare different classification models (Logistic regressio
 # Data preparation
 * We visualize the correlation between attributes:
 ![image 1](https://github.com/YoussefAithaddou/Predcition-of-Airline-Passengers-Satisfaction/blob/main/Correlation%20Matrix.png)
-## The data extraction process gives the following results:
-  1. Reviews: written critic of users.
+* Mean Absolute Error:
+  *
+  *
+* Logistic regression:
+  1. 100000.
 
 
