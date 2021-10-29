@@ -11,10 +11,22 @@ This projects aim to compare different classification models (Logistic regressio
 * Packages: pandas, numpy, sklearn, matplotlib, seaborn, selenium.
 * ChromeDriver 95.0.4638.10 [download](https://chromedriver.chromium.org/downloads).
 # Data used
-* Used selenium to extract 1000 rating and review od RotenTomatoes's users.
-* For simplification reasons, I considered half stars as full stars. That is, for example, a 4.5 rating is considered 5.0 rating.
-# Data visualization
-* The data extraction process gives the following results:
+* Airlines Customer satisfaction [download](https://www.kaggle.com/kerneler/starter-airlines-customer-satisfaction-a981ed4d-6/data).
+* This data shows whether a customer is satisfied with the airlines or not based on different 9 attributes:
+  1. Gender
+  2. Customer Type
+  3. Age
+  4. Type of Travel
+  5. Class
+  6. Flight Distance
+  7. Seat comfort
+  8. Departure/Arrival time convenient
+  9. Food and drinks
+
+# Data preparation
+* We visualize the correlation between attributes:
+![image 1](https://github.com/YoussefAithaddou/Predcition-of-Airline-Passengers-Satisfaction/blob/main/Correlation%20Matrix.png)
+## The data extraction process gives the following results:
   1. Reviews: written critic of users.
 
 
