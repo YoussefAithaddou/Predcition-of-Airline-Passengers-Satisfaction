@@ -39,4 +39,5 @@ This projects aim to compare different classification models (Logistic regressio
 ###### Decision tree:
 * Mean Absolute Error: 0.062
 * Accuracy: 0.94
+
 ![image 2](https://github.com/YoussefAithaddou/Predcition-of-Airline-Passengers-Satisfaction/blob/main/Confusion%20matrix.png)
