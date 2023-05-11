@@ -1,10 +1,6 @@
-# Predcition-of-Airline-Passengers-Satisfaction
-This projects aim to compare different classification models (Logistic regression, Decision tree and SVM) to predict airline customers' satisfaction.
+# Predcition-of-Airline-Passengers'-Satisfaction
+This project aims to compare different classification models (Logistic regression, Decision tree, and SVM) to predict airline customers' satisfaction.
 
-* Scraped over 500 pages of reviews and ratings from RotenTomatoes.com for the movie Mortal Kombat 2021 using python and selenium.
-* Cleaned and converted data into a matrix of token counts with the help of sklearn's CountVectorizer.
-* Optimized Naive-Bayes multiclass classifier using GridsearchCV to choose the optimal parameters.
-* Classified data and predicted the movie ratings based on the written reviews.
 
 # Resources Used
 * Python Version: 3.7
@@ -26,9 +22,9 @@ This projects aim to compare different classification models (Logistic regressio
 # Data preparation
 * Removed missing values.
 * Sampled data for analysis and visualization.
-* We visualize the correlation between attributes:
+* Visualised correlation between attributes:
 ![image 1](https://github.com/YoussefAithaddou/Predcition-of-Airline-Passengers-Satisfaction/blob/main/Correlation%20Matrix.png)
-* SVM is a slow algorithm, thus we used a sample of 5000 rows from the original data as opposed to 100.000 samples used for the logistic regression and Decison tree models.
+* SVM is a slow algorithm, thus I used a sample of 5000 rows from the original data as opposed to 100.000 samples used for the logistic regression and Decison tree model.
 # Classifcation models:
 ###### Logistic regression:
 * Mean Absolute Error: 0.161
