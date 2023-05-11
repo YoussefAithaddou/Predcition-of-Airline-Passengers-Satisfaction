@@ -28,7 +28,7 @@ This projects aim to compare different classification models (Logistic regressio
 * Sampled data for analysis and visualization.
 * We visualize the correlation between attributes:
 ![image 1](https://github.com/YoussefAithaddou/Predcition-of-Airline-Passengers-Satisfaction/blob/main/Correlation%20Matrix.png)
-* SVM is a slow algorithm, thus we used a sample of 5000 rows from the original data as opposed to 100.000 samples sued for the logistic regression and Decison tree models.
+* SVM is a slow algorithm, thus we used a sample of 5000 rows from the original data as opposed to 100.000 samples used for the logistic regression and Decison tree models.
 # Classifcation models:
 ###### Logistic regression:
 * Mean Absolute Error: 0.161
